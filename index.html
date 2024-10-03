@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>JavaScript Avanzado</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -12,51 +12,162 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-body-light shadow-sm p-3">
+    <nav class="navbar navbar-expand-lg bg-light shadow-sm p-3">
         <div class="container-fluid">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Semanas
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Semana 1</a></li>
-                        <li><a class="dropdown-item" href="#">Semana 2</a></li>
-                        <li><a class="dropdown-item" href="#">Semana 3</a></li>
-                        <li><a class="dropdown-item" href="#">Semana 4</a></li>
-                        <li><a class="dropdown-item" href="#">Semana 5</a></li>
-                        <li><a class="dropdown-item" href="#">Semana 6</a></li>
-                        <li><a class="dropdown-item" href="#">Semana 7</a></li>
-                        <li><a class="dropdown-item" href="#">Semana 8</a></li>
-                        <li><a class="dropdown-item" href="#">Semana 9</a></li>
-                        <li><a class="dropdown-item" href="#">Semana 10</a></li>
-                        <li><a class="dropdown-item" href="#">Semana 11</a></li>
-                        <li><a class="dropdown-item" href="#">Semana 12</a></li>
-                        <li><a class="dropdown-item" href="#">Semana 13</a></li>
-                        <li><a class="dropdown-item" href="#">Semana 14</a></li>
-                        <li><a class="dropdown-item" href="#">Semana 15</a></li>
-                        <li><a class="dropdown-item" href="#">Semana 16</a></li>
-                        <li><a class="dropdown-item" href="#">Semana 17</a></li>
-                        <li><a class="dropdown-item" href="#">Semana 18</a></li>
-                    </ul>
-                </li>
-            </ul>
+            <a class="navbar-brand" href="#">JavaScript Avanzado</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Semanas
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#semana1">Semana 1</a></li>
+                            <li><a class="dropdown-item" href="#semana2">Semana 2</a></li>
+                            <li><a class="dropdown-item" href="#semana3">Semana 3</a></li>
+                            <li><a class="dropdown-item" href="#semana4">Semana 4</a></li>
+                            <li><a class="dropdown-item" href="#semana5">Semana 5</a></li>
+                            <li><a class="dropdown-item" href="#semana6">Semana 6</a></li>
+                            <li><a class="dropdown-item" href="#semana7">Semana 7</a></li>
+                            <li><a class="dropdown-item" href="#semana8">Semana 8</a></li>
+                            <li><a class="dropdown-item" href="#semana9">Semana 9</a></li>
+                            <li><a class="dropdown-item" href="#semana10">Semana 10</a></li>
+                            <li><a class="dropdown-item" href="#semana11">Semana 11</a></li>
+                            <li><a class="dropdown-item" href="#semana12">Semana 12</a></li>
+                            <li><a class="dropdown-item" href="#semana13">Semana 13</a></li>
+                            <li><a class="dropdown-item" href="#semana14">Semana 14</a></li>
+                            <li><a class="dropdown-item" href="#semana15">Semana 15</a></li>
+                            <li><a class="dropdown-item" href="#semana16">Semana 16</a></li>
+                            <li><a class="dropdown-item" href="#semana17">Semana 17</a></li>
+                            <li><a class="dropdown-item" href="#semana18">Semana 18</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
-    <main>
-        <h1 class="text-center text-primary mt-3">JavaScript Avanzado</h1>
-    </main>
-    
+    <main class="container main-container">
+        
+        <h1 class="text-center text-primary">JavaScript Avanzado</h1>
 
+        <section id="semana1" class="mt-3">
+            <h2 class="text text-primary">Semana 1</h2>
+            <div class="container shadow-sm p-3 content-week rounded-3 mt-3">
+                <h3>Introducción a JavaScript</h3>
+                <p>JavaScript es un lenguaje de programación que se utiliza principalmente para crear páginas web interactivas. Una página web interactiva es una página web que permite a los usuarios interactuar con ella. Por ejemplo, los usuarios pueden hacer clic en un botón o escribir texto en un campo de texto.</p>
+                <h3>¿Qué es JavaScript?</h3>
+                <p>JavaScript es un lenguaje de programación que se utiliza principalmente para crear páginas web interactivas. Una página web interactiva es una página web que permite a los usuarios interactuar con ella. Por ejemplo, los usuarios pueden hacer clic en un botón o escribir texto en un campo de texto.</p>
+                <h3>¿Por qué aprender JavaScript?</h3>
+                <p>JavaScript es un lenguaje de programación muy popular que se utiliza en todo el mundo. Aprender JavaScript te permitirá crear páginas web interactivas y atractivas que atraigan a los usuarios y los mantengan comprometidos. Además, JavaScript es un lenguaje de programación muy versátil que se puede utilizar para crear una amplia variedad de aplicaciones, desde juegos hasta aplicaciones empresariales.</p>
+                <h3>¿Cómo aprender JavaScript?</h3>
+                <p>Hay muchas maneras de aprender JavaScript, desde tutoriales en línea gratuitos hasta cursos pagados en línea y en persona. Si eres nuevo en la programación, te recomendamos comenzar con un tutorial en línea gratuito para aprender los conceptos básicos de JavaScript. Una vez que te sientas cómodo con los conceptos básicos, puedes pasar a cursos más avanzados para mejorar tus habilidades.</p>
+            </div>
+        </section>
+        <section id="semana2" class="mt-3">
+            <h2>Semana 2</h2>
+            <p>Contenido de la semana 2.</p>
+        </section>
+        <section id="semana3" class="mt-3">
+            <h2>Semana 3</h2>
+            <p>Contenido de la semana 3.</p>
+        </section>
+        <section id="semana4" class="mt-3">
+            <h2>Semana 4</h2>
+            <p>Contenido de la semana 4.</p>
+        </section>
+        <section id="semana5" class="mt-3">
+            <h2>Semana 5</h2>
+            <p>Contenido de la semana 5.</p>
+        </section>
+        <section id="semana6" class="mt-3">
+            <h2>Semana 6</h2>
+            <p>Contenido de la semana 6.</p>
+        </section>
+        <section id="semana7" class="mt-3">
+            <h2>Semana 7</h2>
+            <p>Contenido de la semana 7.</p>
+        </section>
+        <section id="semana8" class="mt-3">
+            <h2>Semana 8</h2>
+            <p>Contenido de la semana 8.</p>
+        </section>
+        <section id="semana9" class="mt-3">
+            <h2>Semana 9</h2>
+            <p>Contenido de la semana 9.</p>
+        </section>
+        <section id="semana10" class="mt-3">
+            <h2>Semana 10</h2>
+            <p>Contenido de la semana 10.</p>
+        </section>
+        <section id="semana11" class="mt-3">
+            <h2>Semana 11</h2>
+            <p>Contenido de la semana 11.</p>
+        </section>
+        <section id="semana12" class="mt-3">
+            <h2>Semana 12</h2>
+            <p>Contenido de la semana 12.</p>
+        </section>
+        <section id="semana13" class="mt-3">
+            <h2>Semana 13</h2>
+            <p>Contenido de la semana 13.</p>
+        </section>
+        <section id="semana14" class="mt-3">
+            <h2>Semana 14</h2>
+            <p>Contenido de la semana 14.</p>
+        </section>
+        <section id="semana15" class="mt-3">
+            <h2>Semana 15</h2>
+            <p>Contenido de la semana 15.</p>
+        </section>
+        <section id="semana16" class="mt-3">
+            <h2>Semana 16</h2>
+            <p>Contenido de la semana 16.</p>
+        </section>
+        <section id="semana17" class="mt-3">
+            <h2>Semana 17</h2>
+            <p>Contenido de la semana 17.</p>
+        </section>
+        <section id="semana18" class="mt-3">
+            <h2>Semana 18</h2>
+            <p>Contenido de la semana 18.</p>
+        </section>
+    </main>
+
+    <footer class="bg-light text-center text-lg-start mt-5">
+        <div class="text-center p-3">
+            © 2023 Universidad Tecnologica del Peru
+        </div>
+    </footer>
+
+    <button class="btn btn-primary scroll-to-top" onclick="scrollToTop()">↑</button>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script>
+        window.onscroll = function () {
+            const scrollToTopButton = document.querySelector('.scroll-to-top');
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                scrollToTopButton.style.display = "block";
+            } else {
+                scrollToTopButton.style.display = "none";
+            }
+        };
+
+        function scrollToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
 </body>
 
 </html>
